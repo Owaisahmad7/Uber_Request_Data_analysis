@@ -6,7 +6,7 @@ FROM uber_requests;
 SELECT Status_, COUNT(*) AS total
 FROM uber_requests
 GROUP BY Status_;
--- 3.eak Requests Hour
+-- 3.peak Requests Hour
 SELECT Request_Hour,
        COUNT(*) AS total_requests
 FROM uber_requests
